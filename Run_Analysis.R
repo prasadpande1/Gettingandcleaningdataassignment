@@ -60,4 +60,4 @@ names(Data) <-gsub("Acc", "Accelerometer", names(Data))
 Final_Merged_Tidy_File  <- aggregate(. ~subject + activity, Data, mean)
 Final_Merged_Tidy_File <- Final_Merged_Tidy_File[order(Final_Merged_Tidy_File$subject, Final_Merged_Tidy_File$activity),]
 
-write.table(Data_Final, file="tidy_Data.txt", row.names = FALSE)
+write.table(Final_Merged_Tidy_File, file="tidy_Data.txt", row.names = FALSE)
