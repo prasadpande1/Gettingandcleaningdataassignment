@@ -1,7 +1,7 @@
 #######
 # Assignment - Getting and Cleaning Data
 #######
-setwd("C:/Users/prasad.pande/Documents/R- Assignment/Assignment - Getting and cleaning Data - Week 4/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
+setwd("C:/Users/xxxxxx/Documents/R- Assignment/Assignment - Getting and cleaning Data - Week 4/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset")
 filepath <- getwd()
 
 ####
